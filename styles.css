@@ -1,0 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header.jumbotron {
+    background: url('https://via.placeholder.com/1920x500') no-repeat center center;
+    background-size: cover;
+    color: rgb(2, 2, 61);
+  }
+  

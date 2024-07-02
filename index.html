@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Your Name">
+  <meta name="description" content="A one-page Bootstrap website example">
+  <title>One-Page Bootstrap Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">MySite</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Unit -->
+  <header id="home" class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to MySite</h1>
+      <p class="lead">A simple one-page Bootstrap website.</p>
+      <img src="images/image 2.jpg" class="img-fluid" alt="About Us">
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="container">
+    <section id="about" class="my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>Welcome to Stationery Shop, your go-to destination for premium stationery and office supplies. We have been dedicated to offering a diverse range of high-quality products to meet all your writing, crafting, and organizing needs. Our collection features everything from elegant pens and stylish notebooks to unique paper products and creative art supplies.We take pride in curating items that blend functionality with beauty, and our knowledgeable staff is here to help you find exactly what you need. Whether you’re a student, a professional, or a hobbyist, we aim to inspire and support your creative and productivity goals.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/image 1.jpg" class="img-fluid" alt="About Us">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="my-5">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4">
+    <div class="container">
+      <p>&copy; 2024 MySite. All rights reserved.</p>
+      <div>
+        <a href="#" class="mr-3">Facebook</a>
+        <a href="#" class="mr-3">Twitter</a>
+        <a href="#" class="mr-3">Instagram</a>
+      </div>
+      <div>
+        <a href="#" class="mr-3">Privacy Policy</a>
+        <a href="#" class="mr-3">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
